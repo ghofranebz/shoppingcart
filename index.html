@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Perfume Shop</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Add the Font Awesome CSS link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Add Bootstrap CSS link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <h1>Perfume Shop</h1>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>Shopping Cart</h2>
+          <div id="items">
+            <!-- Preselected items in the cart -->
+            <div class="cart-item card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-3">
+                  <img src="./assets/the one.jpg" alt="Dolce & Gabbana" class="img-fluid">
+                </div>
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <h5 class="card-title"> THE ONE Dolce & Gabbana</h5>
+                    <p class="card-text"> The One is a delightful oriental spicy scent that has a wonderful combination of grapfruit ginger and orange blossom. Blended perfectly with cedarwood coriander and basil its a no stopping me now fragrance.</p>
+                    <div class="item-controls">
+                      <!-- Replace with Font Awesome icons -->
+                      <button class="quantity-btn btn btn-outline-primary mr-2" data-action="minus"><i class="fas fa-minus"></i></button>
+                      <span class="quantity">0</span>
+                      <button class="quantity-btn btn btn-outline-primary ml-2" data-action="plus"><i class="fas fa-plus"></i></button>
+                      <span class="heart-icon ml-3"><i class="far fa-heart"></i></span>
+                      <button class="delete-btn btn btn-outline-danger ml-3"><i class="fas fa-trash-alt"></i></button>
+                    </div>
+                    <span class="item-price">254.00DT</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cart-item card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-3">
+                  <img src="./assets/ysl libre.jpg" alt="YSL Libre" class="img-fluid">
+                </div>
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <h5 class="card-title">Yves Saint Laurent Libre </h5>
+                    <p class="card-text">Libre Eau de Parfum is a bold and floral perfume for women. A statement feminine fragrance for those who live by their own rules. Lavender essence from France combines with the sensuality of Moroccan orange blossom and daring notes of musk accord and vanilla for a unique long-lasting scent.</p>
+                    <div class="item-controls">
+                      <!-- Replace with Font Awesome icons -->
+                      <button class="quantity-btn btn btn-outline-primary mr-2" data-action="minus"><i class="fas fa-minus"></i></button>
+                      <span class="quantity">0</span>
+                      <button class="quantity-btn btn btn-outline-primary ml-2" data-action="plus"><i class="fas fa-plus"></i></button>
+                      <span class="heart-icon ml-3"><i class="far fa-heart"></i></span>
+                      <button class="delete-btn btn btn-outline-danger ml-3"><i class="fas fa-trash-alt"></i></button>
+                    </div>
+                    <span class="item-price">282.00DT</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="total-price mt-4 text-center">
+            Total Price: <span id="total">0.00DT</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2023 Perfume Shop by GHOFRANE BENZID</p>
+  </footer>
+
+  <!-- Add Font Awesome and Bootstrap JavaScript dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
